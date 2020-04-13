@@ -47,6 +47,8 @@ etc/firmware/ROMv2_patch_1_0_hdr.bin
 etc/firmware/ROMv2_patch_1_1_hdr.bin
 etc/firmware/WIFI_RAM_CODE_8127
 etc/firmware/WMT_SOC.cfg
+etc/init.d/12wakelock_for_rotate
+etc/init.d/07sleepers
 etc/monitoring.conf
 etc/wifi/p2p_supplicant_overlay.conf
 etc/wifi/wpa_supplicant_overlay.conf
@@ -76,6 +78,7 @@ lib/hw/power.default.so
 lib/hw/sensors.mt8127.so
 lib/hw/thermal.mt8127.so
 lib/hw/vibrator.default.so
+lib/hw/sensors.default.so
 lib/lib_uree_mtk_crypto.so
 lib/lib_uree_mtk_video_secure_al.so
 lib/lib3a.so
@@ -162,7 +165,18 @@ lib/libMtkOmxAIVPlayer.so
 lib/libMtkOmxCore.so
 lib/libMtkOmxMp3Dec.so
 lib/libMtkOmxVdec.so
--lib/libMtkOmxVenc.so
+lib/libMtkOmxVenc.so
+lib/libstagefright_omx.so
+lib/libMtkOmxVorbisEnc.so
+lib/libMtkOmxVdecEx.so
+lib/libMtkOmxRawDec.so
+lib/libMtkOmxGsmDec.so
+lib/libMtkOmxG711Dec.so
+lib/libMtkOmxFlacDec.so
+lib/libMtkOmxApeDec.so
+lib/libMtkOmxAlacDec.so
+lib/libMtkOmxAdpcmEnc.so
+lib/libMtkOmxAdpcmDec.so
 lib/libmtkshifter.so
 lib/libnvram_daemon_callback.so
 lib/libnvram_platform.so
