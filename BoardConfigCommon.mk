@@ -13,7 +13,6 @@ TARGET_BOARD_PLATFORM := mt8127
 TARGET_BOARD_PLATFORM_GPU := mali-450mp4
 
 # Build enviremnt 
- LC_ALL := C
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
