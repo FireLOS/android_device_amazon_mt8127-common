@@ -1,7 +1,7 @@
 DEVICE_COMMON := device/amazon/mt8127-common
-# KERNEL_COMMON := kernel/amazon/mt8127-common
+KERNEL_COMMON := kernel/amazon/mt8127-common
 VENDOR_COMMON := vendor/amazon/mt8127-common
-# KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8/bin
 # headers
 TARGET_SPECIFIC_HEADER_PATH := $(DEVICE_COMMON)/include
 
