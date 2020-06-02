@@ -1,3 +1,5 @@
+LOCAL_PATH := $(call my-dir)
+
 include $(CLEAR_VARS)
 LOCAL_SRC_FILES := libshim_gui.cpp
 LOCAL_SHARED_LIBRARIES := libskia libgui
